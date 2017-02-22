@@ -1,0 +1,269 @@
+/*Nav Bar*/
+.dropdown-menu {
+	padding: 5px 5px;
+	border-radius: 0px;
+}
+.navbar-collapse{
+	padding-right: 0px;
+	background: #0A0F51;
+}
+.navbar-default {
+    background-color:transparent;
+    border-color: transparent; 
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    background: #FF5F08;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background: #FF5F08;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-nav {
+    background: #0A0F51;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #808b97;
+    background-color: #363A70;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #78797d;
+	border-left:1px solid #44578e;
+	padding-left: 25px;
+    padding-right: 25px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #e8e6e6;
+    background-color: #363A70;
+}
+
+/*Bg Section*/
+#bg_section{
+	
+}
+.bg_img_text{
+	height: 100vh;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100%;
+	position: relative;
+}
+.bg_text{
+	position: absolute;
+	left:20%;
+	top:50%;
+  transform:translate(-20%,-50%);
+  -webkit-transform:translate(-20%,-50%);
+	-moz-transform:translate(-20%,-50%);
+	max-width: 450px;
+}
+.bg_text h1{
+	color: #fff;
+	font-weight: 700;
+	font-size: 50px;
+}
+.bg_text p{
+	color: #aba9a9;
+    font-size: 13px;
+}
+
+/*Our Company Section*/
+#our_company{
+
+}
+.column_one{
+  height: 70vh;
+  background-image: url(../images/totsl_station.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  position: relative;
+  border: 1px solid rgba(33, 150, 243, 0.76);
+  border-top:0px;
+}
+.column_one_text{
+  max-width: 464px;
+  position: absolute;
+  left:20%;
+  top:10%;
+  transform: translate(-20%,-10%);
+}
+.column_one_text h2{
+  color: #FE5E07;
+  font-weight: 600;
+  font-size: 27px;
+}
+.column_one_text span{
+  background: #FE5E07;
+  color: #fff;
+  padding: 0px 5px;
+  border-radius: 2px;
+}
+.img_company{
+  width: 40px;
+  margin-top: 25px;
+}
+.company{
+  border: 1px solid rgba(33, 150, 243, 0.76);
+  border-top:0px;
+  border-left: 0px;
+  padding-bottom: 46px;
+}
+.column_two_text_img{
+  margin-top: 66px;
+}
+.column_two_img{
+
+}
+.column_two_text{
+
+}
+.column_two_text h3{
+  color: #2f4bc3;
+  padding-top: 4px;
+  padding-bottom: 45px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.column_two_text p{
+  font-size: 12px;
+  color: #648190;
+  padding-bottom: 10px;
+}
+.column_two_text a{
+  color: #FD5D04;
+  font-size: 12px;
+}
+
+
+/*Commodo Section*/
+#commodo_section{
+}
+.commodo_section_height{
+  /*height: 80vh;*/
+}
+.heading_top{
+  max-width: 786px;
+  margin: 0 auto;
+}
+.heading_top h1{
+  color: #FF5F08;
+  font-size: 30px;
+  font-weight: 600;
+}
+.heading_top p{
+  color: #648190;
+  font-size: 12px;
+}
+.commodo_img_text{
+  padding: 20px 0px;
+}
+.commodo_img{
+  max-width: 65px;
+  overflow: hidden;
+  float: left;
+}
+.commodo_text{
+  margin-left: 100px;
+}
+.commodo_text h4{
+  color: #2C46B6;
+  font-weight: 600;
+  font-size: 21px;
+}
+.commodo_text p{
+  color: #648190;
+  font-size: 12px;
+  max-width: 250px;
+}
+.btn-custom{
+  color: #fff;
+  background-color: #2C46B6;
+  border-radius: 0px;
+  border: 0px;
+  padding: 15px 65px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+}
+.btn-custom:hover{
+  color: #2C46B6;
+  background: transparent;
+  border:1px solid #2C46B6;
+  font-weight: 600;
+}
+.btn_botom{
+  padding-bottom: 40px;
+}
+.border{
+  border:1px solid #2C46B6;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+/*Man section*/
+#man_section{
+
+}
+.man_bg_color{
+  background: #FF5A00;
+}
+.man_img{
+  max-width: 377px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;  
+}
+.man_text{
+}
+.man_text_one h2{
+    font-size: 27px;
+    font-weight: 700;
+    color: #fff;
+    max-width: 403px;  
+}
+.man_text_one p{
+    color: #d8e0e4;
+    font-size: 12px;
+    max-width: 451px;
+}
+.man_text_two p{
+    color: #d8e0e4;
+    font-size: 12px;
+    max-width: 240px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding-left: 2px;
+}
+
+/*Tendo Section*/
+#tendo_section{
+
+}
+.tendo_wrapper{
+  background: #1D66DB;
+}
+.tendo_wrapper ul{
+  
+}.tendo_wrapper ul li{
+ list-style: none; 
+}
+.tendo_wrapper ul li img{
+    max-width: 165px;
+    margin-left: 46px;
+    /* padding: 65px 0px; */
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+.tendo_bg{
+  background: #2C46B6;
+}
